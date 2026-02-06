@@ -14,7 +14,7 @@ const Home = () => {
             {/* loop through all categories*/}
             {categories.map((cat,index)=>(
                 (
-                  <div className='col-lg-6 col-md-12 mb-4' key={index}>
+                  <div className={index===2||index===3?"col-lg-6 col-md-12 mb-4":"col-lg-3 col-md-12 mb-4"} key={index}>
                     <Categorycard cat={cat} index={index}/>
                     {console.log(cat)}
                     
@@ -25,7 +25,16 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <section className='feature-section section-spacing pb-0'>
+        <div className='container'>
+          <div className='row'>
+
+          </div>
+        </div>
+      
+    </section>
     </div>
+    
   )
 }
 

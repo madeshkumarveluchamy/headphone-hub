@@ -14,7 +14,9 @@
   object-fit:contain;
   transition:transform 280ms;
   transform-origin:center;
+  zIndex:1 !important;
 }
+
 
 .cat-card:hover .cat-image{
   transform:translateY(-6px) scale(1.1) rotate(-1.2deg)
