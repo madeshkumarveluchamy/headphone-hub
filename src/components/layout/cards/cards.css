@@ -1,0 +1,26 @@
+.cat-card{
+  height:350px;
+  position:relative;
+  border-radius:1.5rem;
+  color:white;
+  overflow:hidden;
+}
+
+.cat-image{
+  width:350px;
+  position:absolute;
+  bottom:0;
+  right:-24px;
+  object-fit:contain;
+  transition:transform 280ms;
+  transform-origin:center;
+}
+
+.cat-card:hover .cat-image{
+  transform:translateY(-6px) scale(1.1) rotate(-1.2deg)
+}
+
+.cat-card:hover .btn-light{
+  background-color:var(--color-primary);
+  color:white;
+}
