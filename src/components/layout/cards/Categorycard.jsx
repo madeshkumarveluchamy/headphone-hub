@@ -18,7 +18,7 @@ const categorycard = ({ cat, index }) => {
   const controls = useAnimation();
 
   //split category title into two styled parts
-  console.log(cat);
+  
 
   //start reveal animation when card becomes visible
   useEffect(() => {

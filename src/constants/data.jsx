@@ -10,6 +10,19 @@ import catImg4 from "../assets/images/categories/4.png"; // Console
 import catImg5 from "../assets/images/categories/5.png"; // Oculus/VR
 import catImg6 from "../assets/images/categories/6.png"; // Speaker
 
+import Img1 from "../assets/images/sliders/1.png"
+import Img2 from "../assets/images/sliders/2.png"
+import Img3 from "../assets/images/sliders/3.png"
+import Img4 from "../assets/images/sliders/4.png"
+import Img5 from "../assets/images/sliders/3.png"
+import Img6 from "../assets/images/sliders/4.png"
+import Img7 from "../assets/images/categories/2.png" // Watch
+import Img8 from "../assets/images/categories/3.png" // Laptop
+
+import bnnr1 from "../assets/images/banner/1.png"
+
+import { FaTruck, FaCheckCircle, FaHeadphonesAlt, FaWallet } from "react-icons/fa";
+
 export const heroSlider = [
   {
     id: 1,
@@ -106,4 +119,101 @@ export const categories = [
     textColor: "white",
     gridSize: "col-sm-12 col-md-6 col-lg-3"
   }
+];
+
+export const features = [
+  {
+    id: 1,
+    icon: <FaTruck className="text-danger fs-1" />,
+    title: "Free Shipping",
+    description: "Free Shipping On All Order",
+  },
+  {
+    id: 2,
+    icon: <FaCheckCircle className="text-danger fs-1" />,
+    title: "Money Guarantee",
+    description: "30 Day Money Back",
+  },
+  {
+    id: 3,
+    icon: <FaHeadphonesAlt className="text-danger fs-1" />,
+    title: "Online Support 24/7",
+    description: "Technical Support 24/7",
+  },
+  {
+    id: 4,
+    icon: <FaWallet className="text-danger fs-1" />,
+    title: "Secure Payment",
+    description: "All Cards Accepted",
+  },
+];
+
+export const bannerDes = {
+  discount: "20% OFF",
+  tag: "Fine Smile",
+  date: "1 Des to 31 Des",
+  subTitle: "Beats Solo Air",
+  title: "Summer Sale",
+  desc: "Company that's grown from 270 to 480 employees",
+  image: bnnr1, // Make sure bnnr1 is imported at the top
+  bg: "radial-gradient(at center center, #f24c55 0%, #d12e37 100%)",
+};
+
+export const products = [
+  {
+    id: 1,
+    img: Img1, // Beats Blue
+    title: "Beats",
+    price: "995",
+    aosDelay: "0",
+  },
+  {
+    id: 2,
+    img: Img2, // Rocky Mountain
+    title: "Rocky Mountain",
+    price: "895",
+    aosDelay: "200",
+  },
+  {
+    id: 3,
+    img: Img3, // Game Console
+    title: "Game Console Controller Cable",
+    price: "695",
+    aosDelay: "400",
+  },
+  {
+    id: 4,
+    img: Img4, // White EliteBook
+    title: "White EliteBook Tablet 810",
+    price: "595",
+    aosDelay: "600",
+  },
+  {
+    id: 5,
+    img: Img5, // Gore Wear Black
+    title: "Gore Wear C7",
+    price: "495",
+    aosDelay: "0",
+  },
+  {
+    id: 6,
+    img: Img6, // Gore Wear Gold
+    title: "Gore Wear C7",
+    price: "795",
+    aosDelay: "200",
+  },
+  {
+    id: 7,
+    img: Img7, // Beats Watch
+    title: "Beats",
+    price: "995",
+    aosDelay: "400",
+  },
+  {
+    id: 8,
+    img: Img8, // Smartwatch Laptop
+    title: "Smartwatch 2.0 LTE Wifi",
+    price: "995",
+    aosDelay: "600",
+  },
 ];

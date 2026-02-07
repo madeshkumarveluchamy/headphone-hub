@@ -101,10 +101,37 @@ small{font-size:12px;}
   }
 }
 
+.btn-primary{
+  background-color:var(--color-primary);
+  borde-color:var(--color-primary);
+}
+
+.btn-primary:hover{
+  background-color:#e0262b;
+  border-color:#e0262b;
+}
+
 @media(max-width:1400px){
   .container{
     max-width:1430px;
     padding-left:2rem;
     padding-right:2rem;
   }
+}
+
+section-spacing{
+  padding:50px 0px;
+}
+
+.banner-section{
+  padding-top:120px;
+  padding-bottom:100px;
+}
+
+.feature-section .feature-icon{
+  font-size:80px !important;
+}
+.widthh{
+  width:250px;
+  height:250px
 }
