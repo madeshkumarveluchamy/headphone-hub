@@ -67,7 +67,7 @@ const imageVariant = {
     opacity:1,
     scale:1,
     y:0,
-    transition:{type:"string",stiffness:150,damping:20},  
+    transition:{type:"spring",stiffness:150,damping:20},  
   }
 }
 const smallFade = {
@@ -89,7 +89,7 @@ const smallFade = {
             
             {/* center image section */}
             <div className='col-12 col-md-4 d-flex justify-content-center align-items-center banner-wrapper order-1 border-md-2'>
-              <motion.img variants={imageVariant} style={{transform:"translateX(-50%)",  }} whileHover={{scale:1.03}} src={bannerInfo.image} alt='banner' className='promo-image z-1'/>
+              <motion.img variants={imageVariant} style={{transform:"translateX(-50%)" , width:"400px",height:"500px" }} whileHover={{scale:1.03}} src={bannerInfo.image} alt='banner' className='promo-image z-1'/>
               
             </div>
 

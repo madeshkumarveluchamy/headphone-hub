@@ -21,6 +21,8 @@ import Img8 from "../assets/images/categories/3.png" // Laptop
 
 import bnnr1 from "../assets/images/banner/1.png"
 
+import img1 from "../assets/images/screen/1.png"
+
 import { FaTruck, FaCheckCircle, FaHeadphonesAlt, FaWallet } from "react-icons/fa";
 
 export const heroSlider = [
@@ -148,16 +150,7 @@ export const features = [
   },
 ];
 
-export const bannerDes = {
-  discount: "20% OFF",
-  tag: "Fine Smile",
-  date: "1 Des to 31 Des",
-  subTitle: "Beats Solo Air",
-  title: "Summer Sale",
-  desc: "Company that's grown from 270 to 480 employees",
-  image: bnnr1, // Make sure bnnr1 is imported at the top
-  bg: "radial-gradient(at center center, #f24c55 0%, #d12e37 100%)",
-};
+
 
 export const products = [
   {
@@ -217,3 +210,25 @@ export const products = [
     aosDelay: "600",
   },
 ];
+
+export const bannerDes = {
+  discount: "20% OFF",
+  tag: "Fine Smile",
+  date: "1 Des to 31 Des",
+  subTitle: "Beats Solo Air",
+  title: "Summer Sale",
+  desc: "Company that's grown from 270 to 480 employees",
+  image: bnnr1, // Make sure bnnr1 is imported at the top
+  bg: "radial-gradient(at center center, #f24c55 0%, #d12e37 100%)",
+};
+
+export const bannerDes2 = {
+  discount: "20% OFF",
+  tag: "HAPPY HOURSE", // As per your screenshot typo
+  date: "15 Nov To 7 Dec",
+  subTitle: "Beats Solo Air",
+  title: "Summer Sale",
+  desc: "Company that's grown from 270 to 480 employees in the last 12 months.",
+  image: img1, // Intha image-ah mela import panni vachukonga
+  bg: "radial-gradient(at center center, #2dcc6f 0%, #24a358 100%)", // Gradient green effect
+};

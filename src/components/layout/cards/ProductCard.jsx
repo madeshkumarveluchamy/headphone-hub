@@ -21,7 +21,7 @@ const ProductCard = ({product,index}) => {
  }
 
   return (
-    <motion.div className='product-card-wrapper' variants={cardVariants} custom={index} inital="visible" transition={0.7|0.3} viewport={{once:true}}>
+    <motion.div className='product-card-wrapper d-flex justify-content-center' variants={cardVariants} custom={index} inital="visible" transition={0.7|0.3} viewport={{once:true}}>
       {/* Product Card */}
       <div className='card product-card mb-4 border-0'>
         {/* Product Image */}

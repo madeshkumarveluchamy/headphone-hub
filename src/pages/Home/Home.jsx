@@ -1,6 +1,6 @@
 import React from 'react'
 import HeroSlider from '../../components/layout/Hero/HeroSlider'
-import { categories,features,bannerDes,products }from "../../constants/data"
+import { categories,features,bannerDes,products,bannerDes2 }from "../../constants/data"
 import Categorycard from '../../components/layout/cards/categorycard'
 import { div, h1 } from 'framer-motion/client'
 import Banner from '../../components/layout/banner/Banner'
@@ -77,7 +77,11 @@ const Home = () => {
           </div>
     </section>
     
+
+    <Banner bannerInfo={bannerDes2}/>
     </div>
+
+     
     
   )
 }
